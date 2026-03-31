@@ -289,9 +289,3 @@ setLanguage("dv");
 
 getDirection(); // "rtl"
 ```
-
----
-
-## License
-
-MIT
