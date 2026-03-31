@@ -208,6 +208,35 @@ All available keys, grouped by category:
 | `status.failed` | Failed | ނާކާމިޔާބު |
 | `status.archived` | Archived | އާކައިވްކޮށްފި |
 
+### `social`
+
+| Key | English | Dhivehi |
+|---|---|---|
+| `social.follow` | Follow | ފޮލޯ |
+| `social.unfollow` | Unfollow | އަންފޮލޯ |
+| `social.followers` | Followers | ފޮލޯވަރުން |
+| `social.following` | Following | ފޮލޯކުރަނީ |
+| `social.like` | Like | ލައިކް |
+| `social.unlike` | Unlike | އަންލައިކް |
+| `social.likes` | Likes | ލައިކްތައް |
+| `social.comment` | Comment | ކޮމެންޓް |
+| `social.comments` | Comments | ކޮމެންޓްތައް |
+| `social.addComment` | Add a comment | ކޮމެންޓެއް ލިޔޭ |
+| `social.reply` | Reply | ރިޕްލައި |
+| `social.replies` | Replies | ރިޕްލައިތައް |
+| `social.viewReplies` | View replies | ރިޕްލައިތައް ބަލޭ |
+| `social.hideReplies` | Hide replies | ރިޕްލައިތައް ފޮރުވޭ |
+| `social.share` | Share | ޝެއަރ |
+| `social.repost` | Repost | ރީޕޯސްޓް |
+| `social.post` | Post | ޕޯސްޓް |
+| `social.posts` | Posts | ޕޯސްޓްތައް |
+| `social.newPost` | New post | އާ ޕޯސްޓެއް |
+| `social.writePost` | Write a post | ޕޯސްޓެއް ލިޔޭ |
+| `social.mention` | Mention | މެންޝަން |
+| `social.tag` | Tag | ޓެގް |
+| `social.block` | Block | ބްލޮކް |
+| `social.report` | Report | ރިޕޯޓް |
+
 ### `table`
 
 | Key | English | Dhivehi |
