@@ -241,4 +241,102 @@ export const translations = {
       dv: "އެންމެ ފަހު ސަފްހާ",
     },
   },
+  social: {
+    follow: {
+      en: "Follow",
+      dv: "ފޮލޯ",
+    },
+    unfollow: {
+      en: "Unfollow",
+      dv: "އަންފޮލޯ",
+    },
+    followers: {
+      en: "Followers",
+      dv: "ފޮލޯވަރުން",
+    },
+    following: {
+      en: "Following",
+      dv: "ފޮލޯކުރަނީ",
+    },
+    like: {
+      en: "Like",
+      dv: "ލައިކް",
+    },
+    unlike: {
+      en: "Unlike",
+      dv: "އަންލައިކް",
+    },
+    likes: {
+      en: "Likes",
+      dv: "ލައިކްތައް",
+    },
+    comment: {
+      en: "Comment",
+      dv: "ކޮމެންޓް",
+    },
+    comments: {
+      en: "Comments",
+      dv: "ކޮމެންޓްތައް",
+    },
+    addComment: {
+      en: "Add a comment",
+      dv: "ކޮމެންޓެއް ލިޔޭ",
+    },
+    reply: {
+      en: "Reply",
+      dv: "ރިޕްލައި",
+    },
+    replies: {
+      en: "Replies",
+      dv: "ރިޕްލައިތައް",
+    },
+    viewReplies: {
+      en: "View replies",
+      dv: "ރިޕްލައިތައް ބަލޭ",
+    },
+    hideReplies: {
+      en: "Hide replies",
+      dv: "ރިޕްލައިތައް ފޮރުވޭ",
+    },
+    share: {
+      en: "Share",
+      dv: "ޝެއަރ",
+    },
+    repost: {
+      en: "Repost",
+      dv: "ރީޕޯސްޓް",
+    },
+    post: {
+      en: "Post",
+      dv: "ޕޯސްޓް",
+    },
+    posts: {
+      en: "Posts",
+      dv: "ޕޯސްޓްތައް",
+    },
+    newPost: {
+      en: "New post",
+      dv: "އާ ޕޯސްޓެއް",
+    },
+    writePost: {
+      en: "Write a post",
+      dv: "ޕޯސްޓެއް ލިޔޭ",
+    },
+    mention: {
+      en: "Mention",
+      dv: "މެންޝަން",
+    },
+    tag: {
+      en: "Tag",
+      dv: "ޓެގް",
+    },
+    block: {
+      en: "Block",
+      dv: "ބްލޮކް",
+    },
+    report: {
+      en: "Report",
+      dv: "ރިޕޯޓް",
+    },
+  },
 } as const;
