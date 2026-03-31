@@ -121,4 +121,124 @@ export const translations = {
       dv: "ރަނގަޅު އީމެއިލް އެޑްރެހެއް ނޫން",
     },
   },
+  form: {
+    email: {
+      en: "Email",
+      dv: "އީމެއިލް",
+    },
+    password: {
+      en: "Password",
+      dv: "ޕާސްވޯޑް",
+    },
+    username: {
+      en: "Username",
+      dv: "ޔޫޒަރނޭމް",
+    },
+    phone: {
+      en: "Phone",
+      dv: "ފޯން",
+    },
+    submit: {
+      en: "Submit",
+      dv: "ހުށަހަޅޭ",
+    },
+    reset: {
+      en: "Reset",
+      dv: "ރީސެޓް",
+    },
+    emailPlaceholder: {
+      en: "Enter your email",
+      dv: "އީމެއިލް ލިޔޭ",
+    },
+    passwordPlaceholder: {
+      en: "Enter your password",
+      dv: "ޕާސްވޯޑް ލިޔޭ",
+    },
+    usernamePlaceholder: {
+      en: "Enter your username",
+      dv: "ޔޫޒަރނޭމް ލިޔޭ",
+    },
+    phonePlaceholder: {
+      en: "Enter your phone number",
+      dv: "ފޯން ނަންބަރ ލިޔޭ",
+    },
+  },
+  user: {
+    profile: {
+      en: "Profile",
+      dv: "ޕްރޮފައިލް",
+    },
+    name: {
+      en: "Name",
+      dv: "ނަން",
+    },
+    email: {
+      en: "Email",
+      dv: "އީމެއިލް",
+    },
+    role: {
+      en: "Role",
+      dv: "މަގާމް",
+    },
+    lastSeen: {
+      en: "Last seen",
+      dv: "އެންމެ ފަހުން ފެނުނީ",
+    },
+    avatar: {
+      en: "Avatar",
+      dv: "އަވަތަރ",
+    },
+  },
+  status: {
+    active: {
+      en: "Active",
+      dv: "ހަރަކާތްތެރި",
+    },
+    inactive: {
+      en: "Inactive",
+      dv: "ހަރަކާތްތެރި ނޫން",
+    },
+    pending: {
+      en: "Pending",
+      dv: "މަޑުކުރަނީ",
+    },
+    success: {
+      en: "Success",
+      dv: "ކާމިޔާބު",
+    },
+    failed: {
+      en: "Failed",
+      dv: "ނާކާމިޔާބު",
+    },
+    archived: {
+      en: "Archived",
+      dv: "އާކައިވްކޮށްފި",
+    },
+  },
+  table: {
+    noData: {
+      en: "No data available",
+      dv: "މައުލޫމާތެއް ނެތް",
+    },
+    showing: {
+      en: "Showing",
+      dv: "ދައްކަނީ",
+    },
+    of: {
+      en: "of",
+      dv: "އިން",
+    },
+    rowsPerPage: {
+      en: "Rows per page",
+      dv: "ކޮންމެ ސަފްހާއަކަށް",
+    },
+    firstPage: {
+      en: "First page",
+      dv: "ފުރަތަމަ ސަފްހާ",
+    },
+    lastPage: {
+      en: "Last page",
+      dv: "އެންމެ ފަހު ސަފްހާ",
+    },
+  },
 } as const;
