@@ -13,17 +13,28 @@ import type { AshiProxy, Language } from "./types.js";
  *    falling back to "en" if the active language's value is missing.
  * 4. If the key path is invalid, return the key itself as a fallback.
  */
+/** Find an own property on `obj` whose name matches `segment` case-insensitively. */
+function findChildKey(obj: object, segment: string): string | undefined {
+  if (Object.prototype.hasOwnProperty.call(obj, segment)) return segment;
+  const lower = segment.toLowerCase();
+  return Object.keys(obj).find((k) => k.toLowerCase() === lower);
+}
+
 export function t(key: string): string {
-  const segments = key.toLowerCase().split(".");
+  const segments = key.split(".");
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let node: any = translations;
 
   for (const segment of segments) {
-    if (node === null || typeof node !== "object" || !(segment in node)) {
+    if (node === null || typeof node !== "object") {
       // Key path not found — return the original key as fallback
       return key;
     }
-    node = node[segment];
+    const childKey = findChildKey(node, segment);
+    if (childKey === undefined) {
+      return key;
+    }
+    node = node[childKey];
   }
 
   // If we landed on a leaf node with language keys, return the translation
