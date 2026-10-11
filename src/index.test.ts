@@ -31,6 +31,12 @@ describe("t()", () => {
     expect(t("Auth.Login")).toBe("Login");
   });
 
+  it("resolves camelCase dictionary keys", () => {
+    expect(t("errors.notFound")).toBe("Page not found");
+    expect(t("ERRORS.NOTFOUND")).toBe("Page not found");
+    expect(t("dhiforms.appName")).toBe("DhiForms");
+  });
+
   it("returns the key when not found", () => {
     expect(t("nonexistent.key")).toBe("nonexistent.key");
   });
