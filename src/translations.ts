@@ -68,6 +68,10 @@ export const translations = {
       en: "No",
       dv: "ނޫން",
     },
+    close: {
+      en: "Close",
+      dv: "ކްލޯސް",
+    },
   },
   nav: {
     home: {
@@ -425,6 +429,10 @@ export const translations = {
       en: "Duplicate",
       dv: "ކޮޕީކުރުން",
     },
+    copySuffix: {
+      en: "(copy)",
+      dv: "(ކޮޕީ)",
+    },
     link: {
       en: "Link",
       dv: "ލިންކް",
@@ -560,6 +568,14 @@ export const translations = {
     columns: {
       en: "Columns",
       dv: "ކޮލަމްތައް",
+    },
+    row: {
+      en: "Row",
+      dv: "ރޯ",
+    },
+    column: {
+      en: "Column",
+      dv: "ކޮލަމް",
     },
     addRow: {
       en: "Add row",
